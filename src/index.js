@@ -10,8 +10,8 @@ if (require("electron-squirrel-startup")) {
 const createWindow = () => {
     // Create the browser window.
     const mainWindow = WinState.createBrowserWindow({
-        width: 200,
-        height: 20,
+        width: 20,
+        height: 200,
         frame: false,
         transparent: true,
         alwaysOnTop: true,
