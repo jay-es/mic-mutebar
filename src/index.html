@@ -19,6 +19,16 @@
         <div class="pid"></div>
         <div class="pid"></div>
         <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
+        <div class="pid"></div>
     </div>
 </div>
 <script type="module">
@@ -26,7 +36,7 @@
     const pids = Array.from(document.querySelectorAll(".pid"));
 
     function colorPids(volume) {
-        const amountOfPids = Math.round(volume / 10);
+        const amountOfPids = Math.round(volume / 5);
         pids.forEach((pid, index) => {
             if (index < amountOfPids) {
                 pid.style.backgroundColor = "var(--mic-volume-bar-color)";
